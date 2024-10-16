@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Menu | Jepoy's Roasted Chicken</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="Logo.png" alt="Jepoy's Roasted Chicken logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="navigation" role="navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="specials.html">SPECIALS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="menu-container">
+            <h1>Menu</h1>
+            <div class="menu-layout">
+                <div class="menu-items">
+                    <!-- Menu items -->
+                    <div class="menu-item">
+                        <img src="menu_1_picture.png" alt="Grilled Chicken dish" class="menu-image">
+                        <div class="item-details">
+                            <h3>Grilled Chicken</h3>
+                            <p>Description of the grilled chicken.</p>
+                            <p class="price">$15.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="menu_2_picture.png" alt="Roasted Chicken dish" class="menu-image">
+                        <div class="item-details">
+                            <h3>Roasted Chicken</h3>
+                            <p>Description of the roasted chicken.</p>
+                            <p class="price">$14.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="menu_3_picture.png" alt="Fried Chicken dish" class="menu-image">
+                        <div class="item-details">
+                            <h3>Fried Chicken</h3>
+                            <p>Description of the fried chicken.</p>
+                            <p class="price">$12.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="menu_4_picture.png" alt="BBQ Chicken dish" class="menu-image">
+                        <div class="item-details">
+                            <h3>BBQ Chicken</h3>
+                            <p>Description of the BBQ chicken.</p>
+                            <p class="price">$16.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- Add more menu items as needed -->
+                </div>
+                <div class="cart">
+                    <h2>Your Items</h2>
+                    <div class="cart-items"></div> <!-- This will hold the cart items -->
+                    <div class="cart-total">
+                        <p>Total</p>
+                        <p class="total-price">$0.00</p>
+                    </div>
+                    <div class="checkout-container"> <!-- Checkout button inside cart -->
+                        <button class="checkout">Review Payment and Address</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
